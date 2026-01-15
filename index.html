@@ -4,53 +4,60 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Antoine Nebout</title>
-  <meta name="description" content="Site académique — Antoine Nebout" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
 
-<header class="top">
-  <h1>Antoine Nebout</h1>
-  <h2>
-    <a href="https://www.inrae.fr/" target="_blank" rel="noopener">INRAE PSAE</a>
-  </h2>
+<header class="site-header">
+  <div class="container">
+    <h1 class="site-title">Antoine Nebout</h1>
+    <div class="site-subtitle">INRAE PSAE — Economics</div>
+  </div>
 
-  <ul class="nav">
-    <li><a href="index.html" aria-current="page">Home</a></li>
-    <li><a href="research.html">Research</a></li>
-    <li><a href="teaching.html">Teaching</a></li>
-    <li><a href="cv.html">CV</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-
-  <hr />
+  <nav class="navbar">
+    <div class="container">
+      <ul class="nav">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 </header>
 
 <main>
-  <!-- Optionnel : photo -->
-  <!-- Ajoute assets/photo.jpg puis dé-commente -->
-  <!-- <img class="profile" src="assets/photo.jpg" alt="Antoine Nebout"> -->
+  <div class="container center">
+    <p class="quote">
+      ♪ “Une courte citation (optionnelle) qui donne le ton.” ♪
+    </p>
 
-  <p>
-    Je suis <strong>chercheur/économiste</strong> à <strong>INRAE PSAE</strong>.
-    Mes intérêts de recherche incluent <em>[thème 1]</em>, <em>[thème 2]</em>, et <em>[thème 3]</em>.
-  </p>
+    <!-- Optionnel : un bouton (comme le style "View Lyrics") -->
+    <!-- <a class="btn" href="#">Un bouton</a> -->
 
-  <p>
-    <strong>Fields:</strong> [Micro applied], [Econ publique], [Agri/Env], [IO], etc.<br />
-    <strong>Methods:</strong> [Empirical], [Structural], [RCT], etc.
-  </p>
+    <div class="media">
+      <!-- Optionnel : mets une image dans assets/hero.jpg -->
+      <!-- <img class="hero-img" src="assets/hero.jpg" alt="Photo" /> -->
+    </div>
+  </div>
 
-  <h3>News</h3>
-  <ul>
-    <li><strong>Working paper:</strong> “Titre” (avec coauteurs), 2026. <span class="small">[PDF] [SSRN] [RePEc]</span></li>
-    <li><strong>Talk:</strong> Séminaire à [lieu], [mois année].</li>
-    <li><strong>Teaching:</strong> [Cours], [semestre].</li>
-  </ul>
+  <div class="container">
+    <div class="block">
+      <h2>About</h2>
+      <p>
+        Je suis économiste à INRAE PSAE. Mes intérêts portent sur
+        <strong>[thème 1]</strong>, <strong>[thème 2]</strong>, et <strong>[thème 3]</strong>.
+      </p>
 
-  <p class="small">
-    Dernière mise à jour : janvier 2026.
-  </p>
+      <h3>Latest</h3>
+      <ul>
+        <li><strong>Working paper</strong> — Titre, coauteurs, année. <span class="small">[PDF] [SSRN] [RePEc]</span></li>
+        <li><strong>Talk</strong> — Lieu, date.</li>
+        <li><strong>Teaching</strong> — Cours, semestre.</li>
+      </ul>
+    </div>
+  </div>
 </main>
 
 </body>
