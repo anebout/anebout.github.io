@@ -25,6 +25,18 @@ body{
   text-align: center;
   padding: 34px 0 18px;
 }
+.subtitle a{
+  color: inherit;          /* enlève le bleu */
+  text-decoration: none;   /* enlève le soulignement */
+}
+
+.subtitle a:visited{
+  color: inherit;          /* enlève le violet après clic */
+}
+
+.subtitle a:hover{
+  text-decoration: underline;
+}
 
 .header h1{
   margin: 0;
