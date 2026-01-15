@@ -157,3 +157,18 @@ margin: 8px 0 10px; /* ↓ beaucoup moins d’espace */
 .block ul{
   margin-bottom: 2px;   /* ← clé */
 }
+
+p.visit{
+  font-style: italic;
+  font-weight: 600;
+  margin: 14px 0 22px;
+  padding-left: 12px;
+  border-left: 2px solid var(--rule);
+}
+
+.block a, .block a:visited{
+  color: inherit;
+}
+.block a:hover{
+  text-decoration: underline;
+}
