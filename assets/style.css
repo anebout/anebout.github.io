@@ -178,11 +178,11 @@ main{
 .block > :last-child{
   margin-bottom: 0 !important;
 }
-/* UCSB contact block with left bar */
+/* UCSB block with left bar */
 .ucsb-block{
   margin: 14px 0 22px;
   padding-left: 12px;
-  border-left: 2px solid var(--rule);
+  border-left: 2px solid #b9b9b9;
 }
 
 .ucsb-block p{
